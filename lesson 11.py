@@ -111,9 +111,10 @@ print(hi)
 # print(mixture[1:3])
 # print(mixture[-2::])
 
-ListData = [1, 2, 3, 4, 5]
-for m in ListData:
-    print(m*2)
+# ListData = [1, 2, 3, 4, 5]
+# for m in ListData:
+#     print(m*2)
+
 
 
 
