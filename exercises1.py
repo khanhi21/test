@@ -44,3 +44,27 @@
 #         continue
 # print(NewList)
 
+# List = [1, 3, 6, 25, 42, 64, 79]
+# OddList = []
+# EvenList = []
+# for num in List:
+#     if (int(num) % 2) == 0:
+#         EvenList.append(num)
+#     else:
+#         OddList.append(num)
+# print(List)
+# print(OddList)
+# print(EvenList)
+
+# number = int(input("Your number pls  "))
+# if (number % 3) == 0 and (number % 5) == 0:
+#     print("FizzBuzz")
+# elif (number % 3) == 0:
+#     print("Fizz")
+# elif (number % 5) == 0:
+#     print("Buzz")
+# else:
+#     print("Not a valid number")
+
+
+
