@@ -34,15 +34,15 @@
 # else:
 #     print("your number is odd")
 
-# a = [1, 2, 5, 7, 8, 3, 19, 27]
-# NewList = []
-#
-# for num in a:
-#     if (num > 15):
-#         NewList.append(num)
-#     else:
-#         continue
-# print(NewList)
+a = [1, 2, 5, 7, 8, 3, 19, 27]
+NewList = []
+
+for num in a:
+    if (num > 15):
+        NewList.append(num)
+    else:
+        continue
+print(NewList)
 
 # List = [1, 3, 6, 25, 42, 64, 79]
 # OddList = []

@@ -129,14 +129,14 @@ print(hi)
 # Dictionaries
 #Dictionary is a collection ehich is unordered changeble...
 #we use curly brackets
-# Student1 = {
-#     "name": "susan",
-#     "stream": "tech",
-#     "CompletedLessons": 4,
-#     "CompletedLessonNames": ["variables", "data", "FilmStudies", "banter"]
-# }
-# print(Student1["stream"])
-# print(Student1["CompletedLessonNames"][1])
+Student1 = {
+    "name": "susan",
+    "stream": "tech",
+    "CompletedLessons": 4,
+    "CompletedLessonNames": ["variables", "data", "FilmStudies", "banter"]
+}
+print(Student1["stream"])
+print(Student1["CompletedLessonNames"][1])
 
 #Changing a value
 # Student1["CompletedLessons"] = 3
@@ -225,7 +225,7 @@ print(hi)
 
 # While loop
 # Initialising the variable
-x = 0
+# x = 0
 # Condition
 # while x < 10:
 #     print("its working --> {}".format(x))
