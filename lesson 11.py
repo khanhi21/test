@@ -129,14 +129,14 @@ print(hi)
 # Dictionaries
 #Dictionary is a collection ehich is unordered changeble...
 #we use curly brackets
-Student1 = {
-    "name": "susan",
-    "stream": "tech",
-    "CompletedLessons": 4,
-    "CompletedLessonNames": ["variables", "data", "FilmStudies", "banter"]
-}
-print(Student1["stream"])
-print(Student1["CompletedLessonNames"][1])
+# Student1 = {
+#     "name": "susan",
+#     "stream": "tech",
+#     "CompletedLessons": 4,
+#     "CompletedLessonNames": ["variables", "data", "FilmStudies", "banter"]
+# }
+# print(Student1["stream"])
+# print(Student1["CompletedLessonNames"][1])
 
 #Changing a value
 # Student1["CompletedLessons"] = 3
@@ -241,8 +241,186 @@ print(Student1["CompletedLessonNames"][1])
 #         break
 #     x = x+1
 
+# Functions
+# Each input has a single output
 
+# def hello():
+#     print("Hello")
+# hello()
 
+# Function with arguments
+# def func(a, b):
+#     return a + b
+# print("The sum is", func(10, 21))
+
+# Function with default arguments
+# def func(a=10,b=30):
+#     return a + b
+# print("The sum is", func())
+
+# Function with default and again passing the values
+# def func(a=10, b=15):
+#     return a+b
+# print("The sum is", func(20, 40))
+
+# def add(a, b):
+#     return a + b
+# print(add(2, 6))
+#
+# def multiply(a, b):
+#     return a * b
+# print(multiply(4, 5))
+#
+# def subtract(a, b):
+#     return a - b
+# print(subtract(10, 5))
+#
+# def divide(a, b):
+#     return a / b
+# print(divide(15, 3))
+
+# Class
+# Classes are a way of bringing both data and functionality together
+
+# class Dog:
+#     animal_kind = "canine" # Class variable
+#
+#     def bark():
+#         return "woof"
+#
+# print(Dog.animal_kind)
+# print(Dog.bark())
+# x = Dog()
+# print(x.bark())
+
+# class Student:
+#     student_type = "Trainee"
+#     def enrol(self):
+#         return "All Good"
+#
+# print(Student.student_type)
+# print(type(Student))
+
+# When a function is declared in a class it is called a method
+
+# class Car:
+#     car_make = "Volkswagen"
+#
+#     def drive():
+#         return "Vroom"
+#
+# print(Car.car_make)
+# print(Car.drive())
+
+# class Car:
+#     car_type = ['Hatch Back', 'Limo', 'Sports Car']
+#
+#     def speed(self):
+#         return "Good Choice"
+#
+# print(Car.car_type[0])
+# print(Car.speed(1))
+
+# class Student:
+#     student_type = "Trainee"
+#     def enrol():
+#         return "Completed"
+#
+# print(Student.student_type)
+# print(Student.enrol())
+
+# libraries and modules
+# import random
+# import math
+#
+# print(random.random())
+#
+# num_float = 23.66
+# print(math.ceil(num_float))
+# print(math.floor(num_float))
+
+# from animal import Animal
+#
+# Dog1 = Animal("Nyme", 100)
+# Dog2 = Animal("Mone", 5)
+# print(Dog1.name)
+
+# import requests
+#
+# request_bbc = requests.get("https://www.bbc.co.uk/")
+# print(request_bbc.status_code)
+# print(request_bbc.content)
+
+# Abstraction is displaying only essential information to the user
+
+# class Employee:
+#     def __init__(self, first_name, last_name, pay):
+#         self.first_name = first_name
+#         self.last_name = last_name
+#         self.pay = pay
+#         self.email = first_name + "." + last_name + "@company.com"
+#
+#     def fullname(self):
+#          return f"{self.first_name} {self.last_name}"
+#
+# emp_1 = Employee("Brian", "Smith", 90000)
+#
+# print(emp_1.email)
+# print(Employee.fullname(emp_1))
+# print(emp_1.fullname()) # Same thing
+
+# Inheritance is a mechanism in which one class acquires
+# the prperty of another class.
+# It allows you to call methods of the superclass in your subclass
+# The primary use case of this is to extend the functionality of the inherited method
+
+# In an object orientated python program, you can restrict access to methods
+# and variables. This can prevent the data from being modified by accident and is known as encapsulation
+
+# Polymorphism in python defines methods in the child class that have the same
+# name as the methods in the parent class
+# In inheritance, the child class inherits the methods from the parent class
+# Also, it is possible to modify a method in a child class
+# that it has inherited from the parent class and this is called as method overriding.
+
+# Lambda function
+# Lambdas are essentially anonymous function that can take
+# multiple parameters but return only one expression
+
+# def add(num1, num2):
+#     return num1 + num2
+# addition = lambda num1, num2:num1 + num2
+# print(add(23, 45))
+# print(addition(23, 45))
+#
+# savings = [234, 567, 674, 78]
+# bonus = list(map(lambda x: x * 1.1, savings))
+# print(bonus)
+
+# from simple_calc import SimpleCalc
+# import unittest
+#
+# class Calctests(unittest.TestCase):
+#
+#     cal = SimpleCalc()
+#
+#     def test_add(self):
+#         self.assertEqual(self.cal.add(2, 4), 6)
+#
+#     def test_subtract(self):
+#         self.assertEqual(self.cal.subtract(4, 2), 2)
+#
+#     def test_multiply(self):
+#         self.assertEqual(self.cal.multiply(2, 2), 4)
+#
+# if __name__ == '__main__':
+#     unittest.main()
+
+# This lesson includes
+# introduction to the openxyl and xlswriter libraries
+# using these libraries to write excel and read from the same files
+
+# create a python folder and a file inside
 
 
 

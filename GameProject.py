@@ -1,4 +1,4 @@
-print("Welcome to Agile Agile Agile")
+print("Welcome to Value Town")
 player_1_name = input("Please enter the first player's name  ").capitalize()
 player_2_name = input("Please enter the second player's name  ").capitalize()
 
@@ -15,7 +15,6 @@ while i < 2.1:
     else:
         i = 2
         continue
-    i += 1
 
 # Defining my dictionaries
 School = {"Name": "School",

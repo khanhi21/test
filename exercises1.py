@@ -34,15 +34,15 @@
 # else:
 #     print("your number is odd")
 
-a = [1, 2, 5, 7, 8, 3, 19, 27]
-NewList = []
-
-for num in a:
-    if (num > 15):
-        NewList.append(num)
-    else:
-        continue
-print(NewList)
+# a = [1, 2, 5, 7, 8, 3, 19, 27]
+# NewList = []
+#
+# for num in a:
+#     if (num > 15):
+#         NewList.append(num)
+#     else:
+#         continue
+# print(NewList)
 
 # List = [1, 3, 6, 25, 42, 64, 79]
 # OddList = []
@@ -65,6 +65,47 @@ print(NewList)
 #     print("Buzz")
 # else:
 #     print("Not a valid number")
+
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+# NewList = []
+#
+# for num in a:
+#     if (num % 3 == 0 and num % 5 == 0):
+#         NewList.append("FizzBuzz")
+#     elif (num % 3 == 0):
+#         NewList.append("Fizz")
+#     elif (num % 5 == 0):
+#         NewList.append("Buzz")
+#     else:
+#         NewList.append(num)
+# print(NewList)
+
+# class Student:
+#     def __init__(self, first_name, last_name):
+#         self.first_name = first_name
+#         self.last_name = last_name
+#         # self.email = first_name + "." + last_name + "@university.com"
+#
+#     def fullname(self):
+#          return f"{self.first_name} {self.last_name}"
+#
+# student_1 = Student
+# student_1.first_name = input("Your first name?  ")
+# student_1.last_name = input("Your second name?  ")
+#
+# class Person(Student):
+#     def __init__(self, first_name, last_name):
+#         super().__init__(first_name, last_name)
+#
+#     def enjoy(self):
+#         hobby = input("Give me one hobby  ")
+#         return f"{self.first_name} enjoys {hobby}"
+#     def chill(self):
+#         return f"{self.first_name} likes to chill"
+#
+# print("Your full name is", Student.fullname(student_1))
+
+
 
 
 
