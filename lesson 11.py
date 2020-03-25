@@ -422,6 +422,20 @@ print(hi)
 
 # create a python folder and a file inside
 
+# pyodbc is an open source python module that makes accessing ODBC databases simple
+# An ODBC driver uses the Open Database Connectivity (ODBC) interface by microsoft
+# using sql as a standard for accessing the data
+# pyodbc is an implemantation of a driver that allows you to connect to pretty much any database
+
+import pyodbc
+
+server = 'localhost,1433'
+database = 'Northwind'
+username = 'SA'
+password = 'Passw0rd2018'
+docker_Northwind = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';'
+                                  'UID='+username+';PWD='+ password)
+
 
 
 
